@@ -1,0 +1,29 @@
+<section class="section swatch-black">
+    <div class="container">
+        <div class="row element-normal-top element-normal-bottom">
+            <div class="col-md-3">
+                <div id="recent-posts-4" class="sidebar-widget  widget_recent_entries">
+                    {% block recent-posts %}
+                    {% endblock %}
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="categories-4" class="sidebar-widget  widget_categories">
+                    {% block categories %}
+                    {% endblock %}
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="archives-4" class="sidebar-widget  widget_archive">
+                    {% block archives %}{% endblock %}
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="tag_cloud-3" class="sidebar-widget  widget_tag_cloud">
+                    {% block tags %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
