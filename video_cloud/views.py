@@ -7,3 +7,6 @@ import random
 
 def index(request):
     return render_to_response('index.html')
+
+def cameras(request):
+    return render_to_response('cameras.html')

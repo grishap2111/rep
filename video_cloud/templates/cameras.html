@@ -1,0 +1,721 @@
+{% extends "base.html"%}
+{% load staticfiles %}
+{% block load_staticfile%}
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/cameras.css' %}" />
+{%endblock%}
+{% block title %}
+Камеры
+{% endblock %}
+{% block content %}
+<article>
+    <section class="section swatch-black  section-text-shadow section-inner-shadow">
+        <div class="background-media" style="background-image: url('{% static 'assets/images/cameras/background.jpg'%}'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 44%;" data-start="background-position:"
+             data-70-top-bottom="background-position:">
+        </div>
+        <div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <header class="text-center  element-medium-top element-medium-bottom not-condensed os-animation" data-os-animation="fadeIn" data-os-animation-delay=".4s" data-70-top-bottom="opacity:0" data-start="opacity:1" data-center="opacity:1">
+                        <h1 class="super hairline bordered-normal">
+                            Камеры
+                        </h1>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="two" class="section swatch-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="portfolio-container element-medium-top element-medium-bottom">
+                        <div class="portfolio masonry " data-padding="15" data-col-xs="2" data-col-sm="2" data-col-md="4" data-col-lg="4" data-layout="fitRows">
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="1" data-title="Coffee and Biscuits">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/1.jpg'%}" class="figure-image magnific" data-links="" target="_self">
+                                        <img src="{% static 'assets/images/cameras/1.jpg'%}" alt="Coffee and Biscuits" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera"> RVi-IPC11SW </p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">720P*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">встроенный</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="2" data-title="Cactus Love">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
+                                    <a href="{% static 'assets/images/cameras/2.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/2.jpg'%}" alt="Cactus Love" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+
+                                            <p align="center" class="name_camera"> RVi-IPC12SW</p>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-md-7">Разрешение</div><div class="col-md-5">1080P*</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Микрофон</div><div class="col-md-5">встроенный</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="3" data-title="Colors galore">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.6s">
+                                    <a href="{% static 'assets/images/cameras/3.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/3.jpg'%}" alt="Colors galore" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera" class="name_camera"> RVi-IPC11S</p>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-md-7">Разрешение</div><div class="col-md-5">720P*</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Микрофон</div><div class="col-md-5">встроенный</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="4" data-title="Playful mood">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0.9s">
+                                    <a href="{% static 'assets/images/cameras/4.jpg'%}" class="figure-image magnific"  target="_self">
+                                        <img src="{% static 'assets/images/cameras/4.jpg'%}" alt="Playful mood" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera"> RVi-IPC12</p>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-md-7">Разрешение</div><div class="col-md-5">1080P*</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Микрофон</div><div class="col-md-5">встроенный</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="5" data-title="Vinyl music">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="1.2s">
+                                    <a href="{% static 'assets/images/cameras/5.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/5.jpg'%}" alt="Vinyl music" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC11 </p>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-md-7">Разрешение</div><div class="col-md-5">720P*</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Микрофон</div><div class="col-md-5">встроенный</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="6" data-title="Summer field">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur from-top fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="2.1s">
+                                    <a href="{% static 'assets/images/cameras/6.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/6.jpg'%}" alt="Vintage building" class="normalwidth">
+                                        <div class="figure-overlay grid-">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+
+                                            <p align="center" class="name_camera"> RVi-IPC32MS-IR (2.8 мм)</p>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-md-7">Разрешение</div><div class="col-md-5">1080P*</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Микрофон</div><div class="col-md-5">есть</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="7" data-title="Red coffee">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur from-top fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="2.1s">
+                                    <a href="{% static 'assets/images/cameras/7.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/7.jpg'%}" alt="Vintage building" class="normalwidth">
+                                        <div class="figure-overlay grid-">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">  RVi-IPC31MS-IR (2.8 мм)</p>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-md-7">Разрешение</div><div class="col-md-5">720P*</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Микрофон</div><div class="col-md-5">есть</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="8" data-title="Vintage building">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur from-top fade-in image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="2.1s">
+                                    <a href="{% static 'assets/images/cameras/8.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/8.jpg'%}" alt="Vintage building" class="normalwidth">
+                                        <div class="figure-overlay grid-">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC33V</p>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-md-7">Разрешение</div><div class="col-md-5">3 Мп*</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Микрофон</div><div class="col-md-5">нет</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="9" data-title="RVi-IPC33M">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/9.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/9.jpg'%}" alt="RVi-IPC33M" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC33M </p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">3 Мп*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">встроенный</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">нет</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="10" data-title="RVi-IPC32S">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/10.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/10.jpg'%}" alt="RVi-IPC32S" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC32S (2.8-12 мм) </p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">1080P*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">нет</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+50</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="11" data-title="RVi-IPC31S">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/11.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/11.jpg'%}" alt="RVi-IPC31S" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC31S (2.8-12 мм) </p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">720P*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">нет</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="12" data-title="RVi-IPC42LS">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/12.jpg'%}" class="figure-image magnific" data-links="" target="_self">
+                                        <img src="{% static 'assets/images/cameras/12.jpg'%}" alt="RVi-IPC42LS" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC42LS (3.6 мм)</p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">1080*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">нет</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="13" data-title="RVi-IPC41LS">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/13.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/13.jpg'%}" alt="RVi-IPC41LS" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC41LS (2.8 мм)</p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">720P*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">нет</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="14" data-title="RVi-IPC43DNS">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/14.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/14.jpg'%}" alt="RVi-IPC43DNS" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC43DNS</p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">3 Мп*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">внешний</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="15" data-title="RVi-IPC43M3">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/15.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/15.jpg'%}" alt="RVi-IPC43M3" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC43M3</p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">3 Мп*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">внешний</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="16" data-title="RVi-IPC43">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/16.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/16.jpg'%}" alt="RVi-IPC43" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC43</p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">3 Мп*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">внешний</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">внешний</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="17" data-title="RVi-IPC42">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/17.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/17.jpg'%}" alt="RVi-IPC42" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC42</p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">1080P*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">нет</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="18" data-title="RVi-IPC41DN">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/18.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/18.jpg'%}" alt="RVi-IPC41DN" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC41DN</p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">720P*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">внешний</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="19" data-title="RVi-IPC41">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/19.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/19.jpg'%}" alt="RVi-IPC41" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC41</p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">720P*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">нет</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">есть</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-40…+50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="masonry-item portfolio-item isotope-item" data-menu-order="20" data-title="RVi-IPC22DN NEW">
+                                <div class="figure portfolio-os-animation element-no-top element-no-bottom text-center figcaption-middle normalwidth image-filter-blur fade-in from-top image-filter-onhover" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                                    <a href="{% static 'assets/images/cameras/20.jpg'%}" class="figure-image magnific" target="_self">
+                                        <img src="{% static 'assets/images/cameras/20.jpg'%}" alt="RVi-IPC22DN NEW" class="normalwidth">
+                                        <div class="figure-overlay grid-overlay-30">
+                                            <div class="figure-overlay-container">
+                                                            <span class="figure-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none"><path d="M50.941 34.953v30.094M65.988 50h-30.093"></path></g></svg>
+                            </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="figure-caption text-left">
+                                        <h3 class="figure-caption-title bordered bordered-small bordered-link">
+                                            <p align="center" class="name_camera">RVi-IPC22DN NEW</p>
+                                        </h3>
+                                        <div class="caption">
+
+                                            <div class="row">
+                                                <div class="col-md-7">Разрешение</div><div class="col-md-5">1080P*</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Микрофон</div><div class="col-md-5">внешний</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">ИК-подсветка</div><div class="col-md-5">нет</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-7">Темп. режим</div><div class="col-md-5">-10…+60</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section swatch-black  section-text-shadow section-inner-shadow">
+        <div class="background-media" style="background-image: url('{% static 'assets/images/cameras/background.jpg'%}'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 44%;" data-start="background-position:"
+             data-70-top-bottom="background-position:">
+        </div>
+        <div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <header class="text-center element-normal-top element-short-bottom condensed os-animation" data-os-animation="fadeIn" data-os-animation-delay=".4s" data-70-top-bottom="opacity:0" data-start="opacity:1" data-center="opacity:1">
+
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
+{% endblock %}

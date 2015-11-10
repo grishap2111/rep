@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     {% load staticfiles %}
-    <title></title>
+    <title>{% block title %}{% endblock %}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="{% static 'assets/css/swatch-white-red.min.css' %}" media="screen">
     <link rel="stylesheet" href="{% static 'assets/css/fonts.min.css' %}" media="screen">
     <link rel="stylesheet" href="{% static 'assets/css/revolution.min.css' %}" media="screen">
+    {% block load_staticfile %}{%endblock%}
     <script type="text/javascript" src="{% static 'assets/js/jquery.js'%}"></script>
 </head>
 <body class="normal-header">
