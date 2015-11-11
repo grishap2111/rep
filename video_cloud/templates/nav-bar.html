@@ -1,16 +1,4 @@
 {% load staticfiles %}
-<div class="topbar container">
-    <nav class="collapse navbar-collapse main-navbar" role="navigation">
-    <ul class="user-menu nav navbar-nav navbar-right">
-        <li><a href="">Зарегистрироваться</a></li>
-        {% if username %}
-            <li><a href=""> Выйти ({{ username }})</a></li>
-        {% else %}
-            <li><a href=""> Войти</a></li>
-        {% endif %}
-    </ul>
-    </nav>
-</div>
 
 <div class="container">
     <div class="navbar-header">
@@ -26,7 +14,7 @@
 
     <nav class="collapse navbar-collapse main-navbar" role="navigation">
 
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav">
             <li class="dropdown menu-item-object-oxy_mega_menu ">
                 <a href="{% url 'index' %}" class="dropdown-toggle">Главная</a>
             </li>
@@ -39,6 +27,14 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle">Контакты</a>
             </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            {% if username %}
+            <li><a href="{% url 'accounts:logout'%}"> Выйти ({{ username }})</a></li>
+            {% else %}
+            <li><a href="">Зарегистрироваться</a></li>
+            <li><a href="{% url 'accounts:login'%}"> Войти</a></li>
+            {% endif %}
         </ul>
     </nav>
 </div>
