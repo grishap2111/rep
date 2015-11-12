@@ -1,0 +1,108 @@
+{% extends "base.html"%}
+{% load staticfiles %}
+{% block title %}
+Контакты
+{% endblock %}
+{% block content %}
+       
+            <article>
+               <section class="section swatch-black  section-text-shadow section-inner-shadow">
+        <div class="background-media" style="background-image: url('{% static 'assets/images/contacts/background.jpg'%}'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 44%;" data-start="background-position:"
+             data-70-top-bottom="background-position:">
+        </div>
+        <div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <header class="text-center  element-medium-top element-medium-bottom not-condensed os-animation" data-os-animation="fadeIn" data-os-animation-delay=".4s" data-70-top-bottom="opacity:0" data-start="opacity:1" data-center="opacity:1">
+                        <h1 class="super hairline bordered-normal">
+                           Контакты
+                        </h1>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+                <section id="two" class="section swatch-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <header class="text-center element-normal-top element-medium-bottom condensed os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                                    <h4 class="lead">
+                  Обратная связь.
+                </h4>
+                                   
+                                </header>
+                            </div>
+                        </div>
+                        <div class="container content">
+	<div class="row margin-bottom-30">
+		 <!-- Contacts -->
+		<div class="col-md-16">
+			 <!-- Business Hours -->
+			
+			<div class="col-md-8 text-left small-screen-center os-animation element-normal-bottom" data-os-animation="fadeInRight" data-os-animation-delay="0.3s">
+                                <form id="contactForm" class="contact-form">
+                                    <div class="form-group form-icon-group">
+                                        <input class="form-control" id="name" name="name" placeholder="Ваше имя *" type="text" required/>
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div class="form-group form-icon-group">
+                                        <input class="form-control" id="email" name="email" placeholder="Ваш Е-майл *" type="email" required>
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <div class="form-group form-icon-group">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Сообщение" rows="10" required></textarea>
+                                        <i class="fa fa-pencil"></i>
+                                    </div>
+                                    <div>
+                                        <input type="submit" value="Отправить" class="btn btn-primary">
+                                    </div>
+                                    <div id="messages"></div>
+                                </form>
+                            </div>
+		<div class="col-md-3 col-md-offset-1">
+		 	<div class="headline"> 
+				<h2>Контакты</h2>
+			</div>
+			<ul class="list-unstyled who margin-bottom-30">
+				<li><a href="#"><i class="fa fa-phone"></i>8 (800) 755-75-15</a></li>
+				<li><a href="#"><i class="fa fa-globe"></i>http://spacecam.ru</a></li>
+			</ul>
+
+			 <!-- Business Hours -->
+			<div class="headline">
+				<h2>Реквизиты</h2>
+			</div>
+			<ul class="list-unstyled margin-bottom-30">
+				<li>ООО «Спейскам»</li>
+				<li>ИНН - 6455063527</li>
+				<li>ОГРН - 1156451004247 </li>
+				<li>Юр. адрес - 410056 г. Саратов ул. Им. Пугачева Е.И. д.72 </li>
+				<li>Факт. адрес - 410056 г. Саратов ул. Им. Пугачева Е.И. д.72</li>
+				<li>р/сч № 40702810956000005015 Саратовское отделение №8622 ОАО «Сбербанк России»</li>
+				<li>к/сч. 30101810500000000649</li>
+			</ul>
+		</div>
+		 <!--/col-md-3--><!--/row-->
+	</div>
+</div>
+    </section>
+    <section class="section swatch-black  section-text-shadow section-inner-shadow">
+        <div class="background-media" style="background-image: url('{% static 'assets/images/contacts/background.jpg'%}'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 50% 44%;" data-start="background-position:"
+             data-70-top-bottom="background-position:">
+        </div>
+        <div class="background-overlay grid-overlay-30 " style="background-color: rgba(0,0,0,0.3);"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <header class="text-center element-normal-top element-short-bottom condensed os-animation" data-os-animation="fadeIn" data-os-animation-delay=".4s" data-70-top-bottom="opacity:0" data-start="opacity:1" data-center="opacity:1">
+
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+            </article>
+        
+    {% endblock %}    

@@ -8,5 +8,6 @@ urlpatterns = patterns('',
                        url(r'^index/$', views.index, name='index'),
                        url(r'^cameras/$', views.cameras, name='cameras'),
                        url(r'^pricing/$', views.pricing, name='pricing'),
+                       url(r'^contact/$', views.contact, name='contact'),
                        url(r'^accounts/', include('accounts.urls', namespace="accounts")),
                        )
