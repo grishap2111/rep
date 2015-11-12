@@ -22,10 +22,6 @@
                 <a href="{% url 'cameras' %}" class="dropdown-toggle">Камеры</a>
             </li>
             <li class="dropdown">
-                <a href="{% url 'pricing' %}" class="dropdown-toggle">Тарифы</a>
-            </li>
-
-            <li class="dropdown">
                 <a href="#" class="dropdown-toggle">Помощь</a>
             </li>
             <li class="dropdown">
