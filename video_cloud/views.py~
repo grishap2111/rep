@@ -18,3 +18,9 @@ def pricing(request):
     args = {'username': auth.get_user(request).username}
     return render_to_response('pricing.html', args)
 
+def contact(request):
+    args = {'username': auth.get_user(request).username}
+    return render_to_response('contact.html', args)
+
+
+

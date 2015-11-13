@@ -22,5 +22,9 @@ def contact(request):
     args = {'username': auth.get_user(request).username}
     return render_to_response('contact.html', args)
 
+def helps(request):
+    args = {'username': auth.get_user(request).username}
+    return render_to_response('helps.html', args)
+
 
 
