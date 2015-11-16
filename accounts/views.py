@@ -12,11 +12,12 @@ def login(request):
         username = request.POST.get('username', '')
         password = request.POST.get('password', '')
         user = auth.authenticate(username=username, password=password)
+        args['username'] = auth.get_user(request).username
         if user is not None and user.is_active:
             # Правильный пароль и пользователь "активен"
             auth.login(request, user)
             # Перенаправление на "правильную" страницу
-            return redirect("/cameras/")
+            return redirect("/")
         else:
             # todo сделать ошибку ввода пароля
             args['login_error'] = "Не правильный логин или пароль!"

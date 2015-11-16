@@ -8,6 +8,7 @@ from django.template import Context, loader
 
 def index(request):
     args = {'username': auth.get_user(request).username}
+    print (request)
     return render_to_response('index.html', args)
 
 def cameras(request):

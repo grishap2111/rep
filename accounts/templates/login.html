@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
-    {% block login %}
-        <form class="form-horizontal" action="" method="POST">
+    <section id="three" class="section swatch-white">
+        <div class="container-fullwidth">
+
+            <form class="form-horizontal" action="" method="POST">
             {% csrf_token %}
             <div class="form-group">
                 <label for="username" class="control-label col-sm-2">Логин</label>
@@ -33,5 +35,6 @@
                 </div>
             </div>
         </form>
-    {% endblock %}
+        </div>
+    </section>
 {% endblock %}
